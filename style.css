@@ -1,20 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
 * {
     border: 0;
     margin: 0;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .text-color-red {
     color: #E82E46;
 }
 
-.text-color-blue {
-    color: #222431;
+.text-color-white {
+    color: #FEFFFF;
+}
+
+.text-color-gray {
+    color: #2c2f41;
+}
+
+.link {
+    font-size: small;
+    font-weight: 900;
+    background-color: #222431;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 20px;
+    color: #323441;
+    display: inline;
+}
+
+.link:hover {
+    background-color: #1e202d;
+}
+
+.link-active {
+    color: #FEFFFF;
+    background-color: #13161F;
+}
+
+.card-container {
+    margin: 20px 40px;
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+}
+
+.card-img {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.card .sub-text {
+    margin-top: 10px;
 }
 
 .main-container {
     height: 90vh;
     width: 100%;
     background-color: #222431;
+}
+
+.main-container .text-container {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-container .text-container .sub-heading {
+    margin-top: 20px;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    margin: 20px 40px;
+    font-weight: 900;
+    letter-spacing: -3px;
+}
+
+.navigation {
+    list-style-type: none;
+    display: block;
+    float: right;
+    margin: 30px 20px;
 }
 
 .vm-container {
