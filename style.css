@@ -11,7 +11,7 @@
 }
 
 .text-color-white {
-    color: #FEFFFF;
+    color: red;
 }
 
 .text-color-gray {
@@ -103,5 +103,5 @@
 .mashers-container {
     height: 90vh;
     width: 100%;
-    background-color: #DFDDE0;
+    background-color: blue;
 }
